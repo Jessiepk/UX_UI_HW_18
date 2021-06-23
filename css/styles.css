@@ -1,10 +1,123 @@
 .header {
    height:40px;
-   background-color: #56CCF2
+   background-color: rgb(17, 153, 135);
+   font-family: navigo, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   color: white;
+   letter-spacing: 1px;
+   
 }
 
+h1 {
+   font-family: bookmania, serif;
+   font-weight: 400;
+   font-style: normal;
+}
+
+h3 {
+   font-family: bookmania, serif;
+   font-weight: 300;
+   font-style: normal;
+   line-height: 20px;
+}
+
+p {
+   font-family: navigo, sans-serif;
+   font-weight: 100;
+   font-style: normal;
+}
 
 .recipeImage {
    width: 200px;
    height: auto;
+}
+
+.pageTitle {
+   float: left;
+   padding: 10px 20px;
+   
+}
+
+.navigation {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.navitem {
+   padding: 10px 20px;
+   font-family: navigo, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   color:white;
+   letter-spacing: 1px;
+}
+
+.header {
+   text-transform: uppercase;
+}
+
+body {
+   margin: 0;
+}
+
+.recipeContainer {
+   margin:24px;
+}
+
+.recipe {
+   border: 1px solid lightgrey;
+   margin-right: 30px;
+   margin-bottom: 15px;
+   display: flex;
+}
+
+.recipeBox {
+   display: flex;
+   margin: 0 15px 15px 0;
+   justify-content: flex-start;
+}
+
+.recipeContent {
+   margin: 24px;
+   max-width: 400px;
+}
+
+button {
+   background-color:#F2C94C;
+   width: 100%;
+   font-size: 14px;
+   text-transform: uppercase;
+   border-radius: 3px;
+   border: 0;
+   height: 30px;
+   margin-top: 24px;
+   margin-bottom: 24px;
+   font-family: navigo, sans-serif;
+}
+
+button a {
+   color: black;
+   text-decoration: none;
+   padding: 8px;
+   letter-spacing: .5px;
+}
+.footer {
+   background-color:  rgb(17, 153, 135);
+   
+}
+
+.copyright {
+   text-align: center;
+   padding: 5px;
+   color: white;
+   font-weight: 200;
+   font-size: 18px;
+}
+
+.link {
+   color: white;
+   font-weight: 400;
+   text-decoration: none;
+   
 }
