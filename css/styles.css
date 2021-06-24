@@ -1,3 +1,37 @@
+
+/* The media query below will stack the recipe boxes when screen width goes to 1000px or less. */
+@media only screen and (max-width: 1000px) {
+   
+   div.recipeBox {
+      display: block;
+   }
+}
+
+/* This media query below will shrink the text of the nav items when screen width goes to 768px or less. */
+@media only screen and (max-width: 768px) {
+      div.header {
+         font-size: 12px;
+         letter-spacing: none
+            }
+} 
+
+/* This media query below will shrink the text of the nav items and increase the header size when screen width goes to 375px or less. */
+
+@media only screen and (max-width: 375px) {
+   div.header {
+      font-size: 10px;
+      letter-spacing: none;
+      height: 60px;
+   }
+   div.navitem {
+      padding: 0px;
+   }
+}
+
+body {
+   margin: 0;
+}
+
 .header {
    height:40px;
    background-color: rgb(17, 153, 135);
@@ -6,7 +40,26 @@
    font-style: normal;
    color: white;
    letter-spacing: 1px;
-   
+   text-transform: uppercase; 
+}
+
+.navigation {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.navitem {
+   padding: 10px 20px;
+   font-family: navigo, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   color:white;
+   letter-spacing: 1px;
+}
+
+.pageTitle {
+   float: left;
+   padding: 10px 20px;  
 }
 
 h1 {
@@ -31,34 +84,6 @@ p {
 .recipeImage {
    width: 200px;
    height: auto;
-}
-
-.pageTitle {
-   float: left;
-   padding: 10px 20px;
-   
-}
-
-.navigation {
-   display: flex;
-   justify-content: flex-end;
-}
-
-.navitem {
-   padding: 10px 20px;
-   font-family: navigo, sans-serif;
-   font-weight: 400;
-   font-style: normal;
-   color:white;
-   letter-spacing: 1px;
-}
-
-.header {
-   text-transform: uppercase;
-}
-
-body {
-   margin: 0;
 }
 
 .recipeContainer {
@@ -102,9 +127,9 @@ button a {
    padding: 8px;
    letter-spacing: .5px;
 }
+
 .footer {
-   background-color:  rgb(17, 153, 135);
-   
+   background-color:  rgb(17, 153, 135); 
 }
 
 .copyright {
